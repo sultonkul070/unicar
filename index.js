@@ -27,5 +27,5 @@ if (process.env.NODE_ENV === "production") {
   });
 }
 app.listen(port, () => {
-  console.log(`Server ${port} da ishga tushdi`);
+  console.log(`Server started on port ${port}`);
 });

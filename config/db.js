@@ -4,7 +4,8 @@ const mongoose = require("mongoose");
 
 const connectDB = async () => {
   const conn = await mongoose.connect(
-    process.env.MONGODB_URL || "mongodb://localhost:27017/kursishi",
+    process.env.MONGODB_URL ||
+      "mongodb+srv://sultonkul070:sultonkul070@unicar.uawgf.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
     {
       useNewUrlParser: true,
       useCreateIndex: true,
